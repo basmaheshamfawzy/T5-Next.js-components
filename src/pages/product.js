@@ -1,13 +1,12 @@
 import Footer from "../components/footer";
+import Layout from "../components/layout";
 
-export default function proucts(){
+export default function product(){
  
     return(
-       <div>
- <Header></Header>
-       <h1>product page</h1>
-       <Footer></Footer>
-       </div>
+    <Layout>
+  <h1>product page</h1>
+     </Layout>
     )
 }
        
